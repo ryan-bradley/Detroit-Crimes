@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" />
+<meta content="Ryan Bradley" name="author" />
+<meta content="Therese Watt" name="author" />
+<meta content="Hannah Short" name="author" />
+<title>ASP-Big Data 2016</title>
+
+<link href="https://msu.edu/favicon.ico" rel="shortcut icon" />
+
+<style type="text/css">
+.doubleLine {
+	height: 5px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.header {
+	height: 44px;
+	width: 515px;
+	font-size: 200%;
+	margin: 10px auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#footer {
+	width: 912px;
+	margin: 0 auto;
+}
+
+#mapDescription {
+	margin: 10px;
+}
+/**
+International Studies and Programs | Michigan State University
+This stylsheet is generated dynamically
+Loaded Style Sheets:
+core_screen.css 
+ core_elements.css 
+ core_menu.css 
+ core_print.css 
+ First Created: 2015-11-05 15:11:10
+Processing time: 0.0003 seconds 
+ */
+@media all {
+	/**** Stylesheet: core_screen.css ****/
+	/*************************************
+  INTERNATIONAL STUDIES AND PROGRAMS
+            CSS Framework
+           core_screen.css
+***************************************/
+	/**************************************/
+	/*         MEYER RESET v1.0           */
+	/**************************************/
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+		{
+		margin: 0;
+		padding: 0;
+		border: 0; /*outline:0;*/
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent
+	}
+	body {
+		line-height: 1
+	}
+	blockquote,q {
+		quotes: none
+	}
+	blockquote:before,blockquote:after,q:before,q:after {
+		content: '';
+		content: none
+	}
+	:focus { /*outline:0*/
+		
+	}
+	ins {
+		text-decoration: none
+	}
+	del {
+		text-decoration: line-through
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0
+	}
+	button {
+		font-size: 100%;
+	}
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	/**************************************/
+	/*              HEADER                */
+	/**************************************/
+	div#isp-header {
+		width: 100%;
+		min-height: 100px;
+		height: 100px;
+		height: auto !important;
+		background: #1a493e
+			url('http://www.isp.msu.edu/isp_common/images/bg_header.gif') top
+			repeat-x;
+		position: relative;
+		border-bottom: 7px solid #548654;
+		z-index: 5000;
+		min-width: 960px;
+		width: 960px;
+		width: auto !important;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	div#isp-header-width {
+		margin: 0 auto;
+		position: relative;
+	}
+	div#isp-header-links {
+		width: 100%;
+		padding-top: 30px;
+		position: relative;
+		clear: both;
+		z-index: 10;
+	}
+	div#isp-header-links a,div#isp-header-links a:visited {
+		color: #ffffff;
+	}
+	div#isp-header-msu {
+		float: left;
+	}
+	div#isp-header-department {
+		float: left;
+		padding: 0 0 0 17px;
+	}
+	img#isp-header-center-link {
+		margin-top: 5px;
+	}
+	#isp-header-search {
+		min-width: 188px;
+		width: 188px;
+		width: auto !important;
+		z-index: 15;
+		position: absolute;
+		right: 10px;
+		top: 16px;
+	}
+	#isp-header-search:hover {
+		background: #1a493e
+			url('http://www.isp.msu.edu/isp_common/images/bg_header.gif') top
+			repeat-x;
+		z-index: 10;
+	}
+	#isp-header-access-icons ul {
+		margin-left: 0;
+		list-style: none;
+	}
+	#isp-header-access-icons ul li {
+		float: right;
+		padding-right: 6px;
+		margin-bottom: 2px;
+		list-style-type: none;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 100%;
+	}
+	#isp-header-access-icons ul li:first-child {
+		padding-right: 0;
+	}
+	#isp-header-access-icons a {
+		color: #fff;
+		font: 1.5ex Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		border-bottom: 1px solid #608179;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0 3px 1px;
+		text-decoration: none;
+	}
+	#isp-header-access-icons button {
+		color: #fff;
+		font: 1.5ex Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		display: inline;
+		border: none;
+		border-bottom: 1px solid #608179;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+		cursor: pointer;
+		background: none;
+		margin-top: -1px;
+	}
+	#isp-header-access-icons a:hover {
+		border-bottom: none;
+		background: #ddddd5;
+		color: #3b3b37;
+	}
+	#isp-header-access-icons button:hover {
+		border-bottom: none;
+		background: #ddddd5;
+		color: #3b3b37;
+	}
+	#isp-header-access-icons button.akdisable:hover {
+		border-bottom: 1px solid #608179;
+		background: none;
+		color: #FFFFFF;
+		cursor: default;
+	}
+	#isp-header-search-box {
+		height: 24px;
+		position: relative;
+		clear: both;
+		padding-bottom: 10px;
+	}
+	.isp-header-query {
+		background: #315a53
+			url('http://www.isp.msu.edu/isp_common/images/search-small.png') 0 0
+			no-repeat;
+		width: 157px;
+		border: 0;
+		height: 18px;
+		padding: 3px 0;
+		padding-left: 3px;
+		position: absolute;
+		right: 28px;
+		color: #fff;
+		font-weight: bold;
+		margin: 0;
+	}
+	#isp-header-submit {
+		/*background: #315a43 url('http://www.isp.msu.edu/isp_common/images/search-small.png') -160px 0 no-repeat;*/
+		background: #315a43;
+		width: 28px;
+		border: 0;
+		height: 24px;
+		position: absolute;
+		right: 0;
+		/*left: 160px;*/
+		outline: none;
+		cursor: pointer;
+		color: #fff;
+		font-weight: bold;
+	}
+	#isp-header-submit:hover {
+		/*background-position: -188px 0;*/
+		
+	}
+	div#isp-header-map {
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 3;
+	}
+	#isp-header-background {
+		position: absolute;
+		background: #1a493e
+			url('http://www.isp.msu.edu/isp_common/images/bg_header.gif') top
+			repeat-x;
+		width: 300px;
+		height: 100%;
+		top: 0;
+		right: 0;
+		z-index: 2;
+	}
+	div#isp-header-shadow {
+		position: relative;
+		height: 8px;
+		width: 100%;
+		background: transparent
+			url('http://www.isp.msu.edu/isp_common/images/shadow.png') repeat-x;
+		min-width: 960px;
+		width: 960px;
+		width: auto !important;
+		z-index: 20;
+	}
+	div#tophead {
+		padding-bottom: 5px;
+	}
+
+	/**************************************/
+	/*             NAVIGATION             */
+	/**************************************/
+
+	/**************************************/
+	/*             INNER SEARCH           */
+	/**************************************/
+	table.searchBox {
+		border: 1px solid #000;
+		margin-bottom: 0 !important;
+		width: 100%;
+	}
+	table.searchBox table {
+		width: 100%;
+		margin-bottom: 0 !important;
+	}
+	td.search-left {
+		width: 15%;
+	}
+	td.search-left label {
+		font-weight: bold;
+	}
+	tr.search-help {
+		padding-top: 0;
+	}
+	td.searchHelp {
+		font-size: 80%;
+		padding-top: 0;
+		padding-bottom: 1em;
+	}
+	input.fullInput,select.fullInput {
+		width: 100%;
+	}
+	span.advs-search {
+		text-align: left;
+		float: left;
+		font-size: 80%;
+	}
+	span.search-help {
+		float: right;
+		text-align: right;
+		font-size: 80%;
+	}
+	div#result_report {
+		background: #f9f9f7;
+		display: block;
+		border: 1px solid #eee;
+		padding: 10px;
+		text-align: center;
+		font-weight: bold;
+		margin: 0 0 20px 0;
+	}
+	div#other_pages {
+		font-size: 90%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	div#powered_by {
+		text-align: center;
+		font-size: 90%;
+		margin: 0 auto;
+		margin-top: 10px;
+		padding-top: 10px;
+		border-top: 1px solid #eee;
+	}
+
+	/**************************************/
+	/*            MAIN CONTENT            */
+	/**************************************/
+	.nw_image {
+		padding-left: 3px;
+	}
+	sup {
+		vertical-align: top;
+		font-size: .7em;
+	} /*provide a default superscript style*/
+
+	/**************************************/
+	/*               FOOTER               */
+	/**************************************/
+	#footer {
+		clear: both;
+		background-color: #e4e8d8;
+		margin-top: 10px;
+		position: relative;
+	}
+	#footer-content {
+		padding: 10px;
+		height: 80px;
+	}
+	#footer-left {
+		width: 196px;
+		position: absolute;
+	}
+	#footer-mid {
+		position: relative;
+		padding-left: 196px;
+	}
+	#footer-right {
+		float: right;
+		width: 40%;
+	}
+	#footer-info {
+		float: left;
+		width: 60%;
+	}
+	#footer-social {
+		border-left: 2px solid #C8CCC2;
+		padding: 0 17px;
+		position: relative;
+	}
+	#footer a {
+		color: #686964;
+		text-decoration: underline;
+		/*position:relative; this breaks IE6 */
+	}
+	#footer a:hover {
+		color: #18453B;
+		text-decoration: none;
+	}
+	#footer p {
+		font-size: 0.8em;
+	}
+	#footer-address {
+		padding: 0 17px;
+		border-left: 2px solid #c8ccc2;
+		font-size: 0.8em;
+		text-align: right;
+	}
+	/*#footer {
+	background-color: #fff;
+	padding-top: 10px;
+	color: #686964;
+    clear: both;
+}
+
+#footer-content {
+    background-color: #e4e8d8;
+    padding: 10px;
+}
+
+#footer a {
+	color: #686964;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	color: #18453B;
+	text-decoration: none;
+}
+
+#footer p {
+	font-size: 0.8em;
+}
+
+/*#footer-logo {
+	width: 190px;
+	float: left;
+	padding-top: 13px;
+}*/
+
+	/*#footer-info {
+	padding-left: 190px;
+	position: relative;
+}
+
+#footer-address {
+    text-align: right;
+    padding-left: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+
+}*/
+	ul#ftmenu {
+		list-style: none;
+		margin: 0 !important;
+	}
+	ul#ftmenu li {
+		display: inline;
+		margin: 0 !important;
+	}
+
+	/***********
+* Social Links
+*****/
+	#foot_social {
+		border-left: 2px solid #C8CCC2;
+		padding-left: 17px;
+		/*float: right;
+	margin-top: 5px;*/
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+	}
+	#social_twitter,#social_youtube,#social_flickr,#social_facebook,#social_instagram
+		{
+		display: block;
+		background-image: url('/isp_includes/_img/social_links.gif');
+		height: 24px;
+		width: 24px;
+		float: left;
+		margin-top: 10px;
+		margin-right: 4px;
+		position: relative;
+	}
+	#social_twitter .social_bubble,#social_youtube .social_bubble,#social_flickr .social_bubble,#social_facebook .social_bubble,#social_instagram .social_bubble
+		{
+		position: absolute;
+		left: -11px;
+		top: -29px;
+		background-image: url('/isp_includes/_img/social_bubbles.png');
+		height: 29px;
+		width: 76px;
+		z-index: 10;
+		display: none;
+	}
+	#social_twitter:hover .social_bubble,#social_youtube:hover .social_bubble,#social_flickr:hover .social_bubble,#social_facebook:hover .social_bubble,#social_instagram:hover .social_bubble
+		{
+		display: block;
+	}
+	#social_twitter .social_bubble {
+		background-position: 0px 0px;
+	}
+	#social_youtube .social_bubble {
+		background-position: 0px -29px;
+	}
+	#social_flickr .social_bubble {
+		background-position: 0px -58px;
+	}
+	#social_facebook .social_bubble {
+		background-position: 0px -87px;
+	}
+	#social_instagram .social_bubble {
+		background-position: 0px -116px;
+	}
+	#social_twitter {
+		background-position: 0px 0px;
+	}
+	#social_youtube {
+		background-position: 0px -24px;
+	}
+	#social_flickr {
+		background-position: 0px -48px;
+	}
+	#social_facebook {
+		background-position: 0px -72px;
+	}
+	#social_instagram {
+		background-position: 0px -96px;
+	}
+	#social_twitter:hover {
+		background-position: -24px 0px;
+	}
+	#social_youtube:hover {
+		background-position: -24px -24px;
+	}
+	#social_flickr:hover {
+		background-position: -24px -48px;
+	}
+	#social_facebook:hover {
+		background-position: -24px -72px;
+	}
+	#social_instagram:hover {
+		background-position: -24px -96px;
+	}
+	#inline_facebook_logo,#inline_twitter_logo {
+		width: 1.5em;
+		margin: 0 10px 0 0;
+	}
+	/*$$JW DO NOT INCLUDE height, let it float based on width since the Twitter logo is NOT a square.*/
+
+	/**************************************/
+	/* Extra                              */
+	/**************************************/
+	body.wide-mode div#isp-header-width.fixed-header {
+		width: 960px;
+	}
+
+	/**************************************/
+	/*             NARROW MODE             */
+	/**************************************/
+	body.narrow-mode {
+		font-size: 80%;
+	}
+	body.narrow-mode div#body0 {
+		margin: 0 auto;
+		position: relative;
+	}
+	body.narrow-mode div#isp-header-width,body.narrow-mode div#menu {
+		width: 960px;
+		margin: 0 auto;
+	}
+	body.narrow-mode div#menu,body.wide-mode div#menu {
+		padding: 30px 0 10px 0;
+	}
+
+	/**************************************/
+	/*              News Items            */
+	/**************************************/
+
+	/** Lists **/
+	ul.news-items-list {
+		list-style: none;
+	}
+	ul.news-items-list li.news-news-item {
+		padding-bottom: 10px;
+		list-style: none;
+	}
+	ul.news-items-list span.news-list-published {
+		display: block;
+	}
+	ul.news-items-list span.news-headline {
+		display: block;
+	}
+	.news_socialshare ul {
+		list-style-type: none;
+		margin-top: 15px;
+	}
+	.news_socialshare li {
+		display: inline;
+		float: right;
+		margin-right: 10px;
+	}
+	.news-list-preview {
+		margin: 0 1em 0 0;
+		float: left;
+		width: 20%;
+		height: 100%;
+	}
+	.news-list-content {
+		float: left;
+		width: 72%;
+	}
+	.news-list-content-full {
+		float: left;
+		width: 98%;
+	}
+
+	/** Snippets **/
+	ul.news-items-snippet {
+		list-style: none;
+	}
+	ul.news-items-snippet li.news-news-item {
+		padding-bottom: 10px;
+		list-style: none;
+	}
+	ul.news-items-snippet span.news-published {
+		
+	}
+	ul.news-items-snippet span.news-headline {
+		display: block;
+		font-weight: bold;
+		margin: 0.5em 0;
+		font-size: 1.1em;
+	}
+	ul.news-items-snippet span.news-author {
+		
+	}
+	ul.news-items-snippet span.news-department {
+		
+	}
+	ul.news-items-snippet span.news-snippet {
+		display: block;
+	}
+	ul.news-items-snippet li.news-item {
+		padding-bottom: 20px;
+		border-bottom: 1px solid #cccccc;
+		padding-top: 20px;
+	}
+	.snippet-preview {
+		margin: 0 1em 0 0;
+		float: left;
+		width: 20%;
+		height: 100%;
+	}
+	.snippet-content {
+		float: left;
+		width: 70%;
+	}
+	.snippet-content-full {
+		/*float: left;*/
+		/*width: 98%;*/
+		
+	}
+
+	/** Full**/
+	h2.news-headline {
+		margin: 1em 0;
+	}
+	span.news-author {
+		font-size: 0.9em;
+	}
+	span.news-published {
+		font-size: 0.9em;
+	}
+	.news-preview-image {
+		float: right;
+		background-color: #EAEDE6;
+		margin: 0 0 1.5em 1.5em;
+		padding: 20px;
+		width: 130px;
+	}
+	.news-preview-image p {
+		font-size: 0.8em;
+		padding: 5px 0;
+	}
+	.news_socialshare ul {
+		list-style-type: none;
+	}
+	.news_socialshare li {
+		display: inline;
+		float: right;
+		margin-right: 10px;
+	}
+
+	/*************************
+ Spolights
+************************/
+	#news-spotlight-image {
+		height: 150px;
+	}
+	#news-spotlight-content {
+		
+	}
+	#news-spotlight-nav {
+		padding-top: 15px;
+	}
+	#news-spotlight-nav a {
+		text-decoration: none;
+	}
+	#news-spotlight-nav a img {
+		border: 0;
+	}
+
+	/**************************************/
+	/*              Events Items            */
+	/**************************************/
+
+	/** Lists **/
+	ul.events-items-list {
+		list-style: none;
+	}
+	ul.events-items-list li.events-events-item {
+		padding-bottom: 10px;
+		list-style: none;
+	}
+	ul.events-items-list span.events-list-published {
+		display: block;
+	}
+	ul.events-items-list span.events-title {
+		display: block;
+	}
+	.events_socialshare ul {
+		list-style-type: none;
+		margin-top: 15px;
+	}
+	.events_socialshare li {
+		display: inline;
+		float: right;
+		margin-right: 10px;
+	}
+	.events-list-preview {
+		margin: 0 1em 0 0;
+		float: left;
+		width: 20%;
+		height: 100%;
+	}
+	.events-list-content {
+		float: left;
+		width: 75%;
+	}
+	.events-list-content-full {
+		float: left;
+		width: 98%;
+	}
+	.events-list-title,.events-list-time,.events-list-location {
+		display: block;
+	}
+	div.dateblock {
+		background: #ffffff;
+		border-color: #bbbbbb;
+		border-style: solid;
+		border-width: 1px;
+		color: #999999;
+		float: left;
+		line-height: 1;
+		margin: 6px 10px 0 0;
+		text-align: center;
+		width: 18%;
+		padding-bottom: 2px;
+	}
+	div.dateblock span {
+		display: block;
+		text-align: center;
+	}
+	div.dateblock span.month {
+		/*background-color: #548653;*/
+		background-color: #498449;
+		color: #ffffff;
+		font-size: 0.9em;
+		padding: 2px;
+		text-transform: uppercase;
+	}
+	div.dateblock span.day {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	div.dateblock year {
+		font-size: 0.8em;
+		padding: 2px;
+	}
+
+	/** Snippets **/
+	ul.events-items-snippet {
+		list-style: none;
+	}
+	ul.events-items-snippet li.events-events-item {
+		padding-bottom: 10px;
+		list-style: none;
+	}
+	ul.events-items-snippet span.events-published {
+		
+	}
+	ul.events-items-snippet span.events-title {
+		display: block;
+		font-weight: bold;
+		margin: 0.5em 0;
+		font-size: 1.1em;
+	}
+	ul.events-items-snippet span.events-department {
+		display: block;
+	}
+	ul.events-items-snippet span.events-location {
+		display: block;
+	}
+	ul.events-items-snippet span.events-time {
+		display: block;
+	}
+	ul.events-items-snippet li.events-item {
+		padding-bottom: 20px;
+		border-bottom: 1px solid #cccccc;
+		padding-top: 20px;
+	}
+	#body0 ul.events-items-snippet li.events-item {
+		margin-left: 0px;
+	}
+
+	/** Full**/
+	h2.events-title {
+		margin: 1em 0;
+	}
+	span.events-date {
+		display: block;
+	}
+	span.events-time {
+		display: block;
+	}
+	.events-preview-image {
+		float: right;
+		background-color: #EAEDE6;
+		margin: 0 0 1.5em 1.5em;
+		padding: 20px;
+		width: 130px;
+	}
+	.events-preview-image p {
+		font-size: 0.8em;
+		padding: 5px 0;
+	}
+	.events_socialshare ul {
+		list-style-type: none;
+	}
+	.events_socialshare li {
+		display: inline;
+		float: right;
+		margin-right: 10px;
+	}
+	span.events-contact-name {
+		display: block;
+	}
+	span.events-contact-phone {
+		display: block;
+	}
+	span.events-contact-email {
+		display: block;
+	}
+	span.events-contact-tags {
+		display: block;
+	}
+	span.events-page-url {
+		display: block;
+	}
+	span.events-sponsor-url,span.events-sponsor {
+		display: block;
+	}
+	/*************************
+ Spolights
+************************/
+	#events-spotlight-image {
+		height: 150px;
+	}
+	#events-spotlight-content {
+		
+	}
+	#events-spotlight-nav {
+		padding-top: 15px;
+	}
+	#events-spotlight-nav a {
+		text-decoration: none;
+	}
+	#events-spotlight-nav a img {
+		border: 0;
+	}
+	.events-calendar-nav {
+		float: right;
+		background-color: #EAEDE6;
+		margin: 0 0 1.5em 1.5em;
+		padding: 20px;
+		width: 150px;
+		border-left: 5px solid #ffffff;
+	}
+	body.wide-mode .events-calendar-nav {
+		width: 180px;
+	}
+
+	/************************
+* Twitter
+************************/
+	.tweet-date {
+		display: block;
+		text-align: right;
+	}
+
+	/************************
+* Calendar
+********************/
+	table.calendar {
+		table-layout: fixed;
+		width: 100%;
+	}
+	table.calendar td {
+		text-align: right;
+		padding: 0.3em 0.3em;
+	}
+	.calendar-prev a {
+		font-size: 150%;
+		text-decoration: none;
+	}
+	.calendar-next a {
+		font-size: 150%;
+		text-decoration: none;
+	}
+	.calendar-prev a:visited,.calendar-next a:visited {
+		text-decoration: none;
+	}
+
+	/**************************************/
+	/*              GLOBALS               */
+	/**************************************/
+	img {
+		border: 0;
+	}
+	.clear {
+		clear: both;
+	}
+	.hide {
+		position: absolute;
+		left: -9999px;
+	}
+	.hidden {
+		display: none;
+	}
+
+	/**************************************/
+	/*              ERROR LOG             */
+	/**************************************/
+	#error_log {
+		min-width: 600px;
+		max-width: 1000px;
+		width: 100%;
+		margin: 50px auto 20px;
+	}
+	#error_log table {
+		width: 100%;
+	}
+	#error_log table thead {
+		border-bottom: #ccc 1px solid;
+		font-weight: bold;
+	}
+	#error_log table tbody tr {
+		border-bottom: #eee 1px solid;
+	}
+	#error_log_message {
+		background: #fbfbfb;
+		border: #eee 1px solid;
+		width: 600px;
+		margin: 50px auto 20px;
+		font-size: 1.1em;
+		text-align: center;
+		padding: 10px;
+		font-weight: bold;
+	}
+	.xdebug-var-dump {
+		background: #fbfbfb;
+		border: #eee 1px solid;
+		font-size: 1.1em;
+		width: 800px;
+		margin: 50px auto 20px;
+		padding: 10px;
+	}
+
+	/**** Stylesheet: core_elements.css ****/
+
+	/*************************************
+  INTERNATIONAL STUDIES AND PROGRAMS
+            CSS Framework
+           core_screen.css
+***************************************/
+
+	/**************************************/
+	/*        BASIC TYPOGRAPHY
+*
+*  Default: AA
+*  For AAA, body class='aaa'
+*  For MSU, body class='msu'
+/**************************************/
+	body {
+		width: 100%;
+		height: 100%;
+		font: 100% Arial, Helvetica, sans-serif;
+		background: #f9f9f7;
+		color: #000;
+	}
+	h1,h2,h3,h4,h6,.msu h1,.msu h2,.msu h3,.msu h4,.msu h6 {
+		font-weight: bold;
+	}
+	h1,.aaa h1 {
+		font-size: 200%;
+		color: #4c7f4c;
+	}
+	h2,.aaa h2 {
+		font-size: 150%;
+		color: #8a7030;
+	}
+	h3,.aaa h3 {
+		font-size: 130%;
+		color: #8a7030;
+	}
+	h4 {
+		font-size: 110%;
+		color: #000;
+	}
+	h5 {
+		font-size: 100%;
+		font-style: italic;
+		color: #000;
+	}
+	h6 {
+		font-size: 90%;
+		color: #000;
+	}
+	.aaa h1 {
+		color: #2c6040;
+	}
+	.aaa h2 {
+		color: #6a5319;
+	}
+	.aaa h3 {
+		color: #6a5319;
+	}
+	.msu h1 {
+		font-size: 1.6em;
+		color: #548654;
+	}
+	.msu h2 {
+		font-size: 0.875em;
+		color: #aa975a;
+	}
+	.msu h3 {
+		font-size: 0.75em;
+		color: #aa975a;
+	}
+	.msu h4 {
+		font-size: 0.75em;
+		color: #000;
+	}
+	.msu h5 {
+		font-size: 0.75em;
+		color: #000;
+	}
+	.msu h6 {
+		font-size: 0.7em;
+		color: #000;
+	}
+
+	/******************** Link styles */
+	a,a:visited,.aaa a,.aaa a:visited {
+		color: #4c7f4c;
+		text-decoration: underline;
+	}
+	.aaa a,.aaa a:visited {
+		color: #226222;
+	}
+	a:hover,.aaa a:hover {
+		text-decoration: none;
+	}
+	.callOut a,.callOut a:visited,.aaa .callOut a,.aaa .callOut a:visited {
+		color: #447744;
+	}
+	.aaa .callOut a,.aaa .callOut a:visited {
+		color: #095c09;
+	}
+	.copyright a,.copyright a:visited {
+		color: #686964;
+	}
+	.aaa .copyright a,.aaa .copyright a:visited {
+		color: #4a4c47;
+	}
+	.copyright a:hover,.aaa .copyright a:hover {
+		color: #18453b;
+	}
+	.msu .callOut a,.msu .callOut a:visited {
+		font-size: 0.8em;
+		color: #539753;
+		text-decoration: underline;
+	}
+	.msu .callOut a:hover {
+		text-decoration: none;
+	}
+	.msu .copyright a,.msu .copyright a:visited {
+		color: #686964;
+		text-decoration: underline;
+	}
+	.msu a,.msu a:visited {
+		color: #539753;
+		text-decoration: underline;
+	}
+	.msu a:hover {
+		text-decoration: none;
+	}
+
+	/******************** Text styles */
+	p {
+		font-size: 100%;
+	}
+	.callOut p {
+		color: #2d3c2d;
+	}
+	.msu .callOut p {
+		font-size: 0.8em;
+		color: #2d3c2d;
+		line-height: 1.15em;
+	}
+	.msu blockquote {
+		font-size: 0.9em;
+		color: #000;
+		line-height: 1.25em;
+		padding: 0 1.5em 0 1.5em;
+	}
+
+	/******************** List styles */
+	.msu ul,.msu ol {
+		font-size: 0.9em;
+		padding: 0 0 0 2em;
+		line-height: 1em;
+	}
+
+	/******************** Navigation styles */
+	.left a,.left a:visited,.right a,.right a:visited {
+		font-size: 90%;
+		font-weight: bold;
+		color: #8a7030;
+		text-decoration: none;
+	}
+	.aaa .left a,.aaa .left a:visited {
+		color: #6a5319;
+	}
+	.left a:hover,.right a:hover {
+		text-decoration: underline;
+	}
+	.msu .left a,.msu .left a:visited,.msu .right a,.msu .right a:visited {
+		font-size: 0.8em;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.msu .left a:hover,.msu .right a:hover {
+		text-decoration: underline;
+	}
+	.msu .left a.sub,.msu .left a.sub:visited,.msu .right a.sub,.msu .right a.sub:visited
+		{
+		font-weight: normal;
+	}
+
+	/******************** Block styles */
+	.callOut {
+		background: #eaede6;
+		display: block;
+	}
+	.copyright {
+		background: #e4e8de;
+		font-size: 80%;
+		color: #686964;
+		display: block;
+	}
+	.aaa .copyright {
+		color: #4a4c47;
+	}
+	.msu .callOut {
+		background: #eaede6;
+		/*
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    */
+	}
+	.msu .copyright {
+		background: #e4e8de;
+		font-size: 0.8em;
+		color: #686964;
+	}
+	.msu .wordmark {
+		width: 187px;
+		height: 56px;
+		background: #e4e8de;
+		color: #18453b;
+	}
+	ul {
+		margin-left: 15px;
+	}
+
+	/**** Stylesheet: core_menu.css ****/
+
+	/*************************************
+  INTERNATIONAL STUDIES AND PROGRAMS
+            CSS Framework
+           core_menu.css
+***************************************/
+
+	/*** Menu Styles ***/
+	#menu {
+		margin: 0 auto;
+		z-index: 2000;
+		padding: 30px 0 10px 0;
+		position: relative;
+		width: 100%;
+	}
+	#menu ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		z-index: 1800;
+	}
+	#menu ul li {
+		float: left;
+		/*z-index: 2200;*/
+	}
+	#menu ul ul {
+		/*position: relative;*/
+		z-index: 2600;
+	}
+	#menu ul ul li {
+		background-color: #b3b7ae;
+	}
+	#menu ul ul li.sub-top {
+		background-color: transparent;
+	}
+	#menu span.head {
+		font-size: 0.9em;
+		display: block;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #ccc #888 #555 #bbb;
+		margin: 0;
+		text-align: center;
+	}
+	#menu span.head {
+		color: #2a2a27;
+		text-transform: uppercase;
+		background-image:
+			url('http://www.isp.msu.edu/isp_common/images/menu-bg.gif');
+		background-repeat: repeat-x;
+		background-position: 0 0;
+		line-height: 1.3em;
+	}
+	#menu a {
+		padding: 5px 20px;
+	}
+	#menu ul li ul li a {
+		width: 11em;
+	}
+	#menu ul li span.head a {
+		font-weight: bold;
+		font-size: 1.1em;
+		color: #000000;
+	}
+	#menu ul li span.head a:hover {
+		color: #ffffff;
+		background: none;
+		text-decoration: underline;
+	}
+	div#menu ul li:hover span.head {
+		color: #ffffff;
+		background-position: 0 -100px;
+		background-repeat: repeat-x;
+	}
+	div#menu ul li:hover span.head a {
+		color: #ffffff;
+	}
+	#menu ul li ul li {
+		border-left: 3px solid #cacece;
+		border-right: 3px solid #cacece;
+	}
+	#menu ul li ul li.last {
+		border-bottom: 3px solid #cacece;
+	}
+	#menu ul li ul li.first {
+		border-top: 3px solid #cacece;
+	}
+	#menu ul li a {
+		font-size: 0.9em;
+		display: block;
+	}
+	#menu a {
+		color: #000000;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	#menu a:hover {
+		background-color: #707070;
+		color: #ffffff;
+	}
+	#menu ul li {
+		position: relative;
+	}
+	#menu ul ul {
+		position: absolute;
+		/*z-index: 2600;*/
+	}
+	#menu ul ul ul {
+		position: absolute;
+		top: 0;
+		left: 100%;
+	}
+	#menu ul li span.home-link a {
+		background-image:
+			url('http://www.isp.msu.edu/isp_common/images/home1.png');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		font-size: 0.3em;
+		text-indent: -9999px;
+	}
+	#menu ul li span.home-link a:hover {
+		background-image:
+			url('http://www.isp.msu.edu/isp_common/images/home2.png');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		text-decoration: none;
+	}
+	div#menu ul ul,div#menu ul li:hover ul ul,div#menu ul ul li:hover ul ul
+		{
+		display: none;
+	}
+	div#menu ul li:hover ul,div#menu ul ul li:hover ul,div#menu ul ul ul li:hover ul
+		{
+		display: block;
+	}
+	/**************************************/
+	/* Extra                              */
+	/**************************************/
+	body.wide-mode div#menu.fixed-header {
+		width: 960px;
+	}
+}
+
+@media print {
+	/**** Stylesheet: core_print.css ****/
+	body {
+		background-color: #fff;
+		background-image: none;
+		border: 0;
+		padding: 10px;
+		background-color: #ffffff;
+		margin: 0;
+	}
+	#isp-header {
+		display: none !important;
+	}
+	img {
+		border: 0
+	}
+	.noprintshow {
+		display: none;
+	}
+	.noprint {
+		display: none;
+	}
+	.printonly {
+		position: static;
+		visibility: visible;
+	} /*shows the print format of classed element(s) on screen*/
+	p {
+		line-height: 100%;
+	}
+
+	/** breadcrumbs **/
+	#breadCrumb {
+		text-align: center;
+		font-variant: small-caps;
+	}
+	.breadCrumbReg,#breadCrumbLast,.btmenu {
+		font-weight: bold;
+		padding: 0;
+		font-variant: small-caps;
+		font-size: 1.3em;
+	}
+	#breadCrumbLast {
+		color: #9A9A77;
+	}
+	#pfbreadcrumb {
+		text-align: center;
+	}
+	#pdfNote {
+		text-align: center;
+	}
+
+	/** End Core Print Styles. Below are print styles from the site if any ****/
+}
+
+@media print {
+	/**** Stylesheet: core_print.css ****/
+	body {
+		background-color: #fff;
+		background-image: none;
+		border: 0;
+		padding: 10px;
+		background-color: #ffffff;
+		margin: 0;
+	}
+	#isp-header {
+		display: none !important;
+	}
+	img {
+		border: 0
+	}
+	.noprintshow {
+		display: none;
+	}
+	.noprint {
+		display: none;
+	}
+	.printonly {
+		position: static;
+		visibility: visible;
+	} /*shows the print format of classed element(s) on screen*/
+	p {
+		line-height: 100%;
+	}
+
+	/** breadcrumbs **/
+	#breadCrumb {
+		text-align: center;
+		font-variant: small-caps;
+	}
+	.breadCrumbReg,#breadCrumbLast,.btmenu {
+		font-weight: bold;
+		padding: 0;
+		font-variant: small-caps;
+		font-size: 1.3em;
+	}
+	#breadCrumbLast {
+		color: #9A9A77;
+	}
+	#pfbreadcrumb {
+		text-align: center;
+	}
+	#pdfNote {
+		text-align: center;
+	}
+
+	/** End Core Print Styles. Below are print styles from the site if any ****/
+}
+</style>
+
+
+<script type="text/javascript"
+	src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+	function initialize() {
+
+		var tableId = '1bTAfjXCM4hmHyiLABQVqAOYostc-HDAO7lTAqbhL';
+		var locationColumn = 'col12\x3e\x3e1';
+
+		var description = document.getElementById('mapDescription');
+		description.innerHTML = "The month map represents the clusters of the frequency of crimes in relation to Scout Car Area and month. This map shows that there are seven (7) SCA’s with a high amount of crimes reported, whilst there are many (seventeen -17) SCA’s where crime rates are much lower.";
+
+		var isMobile = (navigator.userAgent.toLowerCase().indexOf('android') > -1)
+				|| (navigator.userAgent
+						.match(/(iPod|iPhone|iPad|BlackBerry|Windows Phone|iemobile)/));
+		if (isMobile) {
+			var viewport = document.querySelector("meta[name=viewport]");
+			viewport.setAttribute('content',
+					'initial-scale=1.0, user-scalable=no');
+		}
+		var mapDiv = document.getElementById('googft-mapCanvas');
+		mapDiv.style.width = isMobile ? '100%' : '800px';
+		mapDiv.style.height = isMobile ? '100%' : '400px';
+
+		var map = new google.maps.Map(mapDiv, {
+			center : new google.maps.LatLng(42.34955397974839,
+					-83.1161661376953),
+			zoom : 11,
+			mapTypeId : google.maps.MapTypeId.ROADMAP
+		});
+
+		google.maps.event.addDomListener(document.getElementById('method'),
+				'change', function() {
+
+					updateMap(layer, tableId, locationColumn);
+
+				});
+
+		var legend = document.createElement('div');
+		legend.id = 'legend';
+		var content = [];
+
+		legend.innerHTML = content.join('');
+		legend.index = 1;
+		map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+
+		map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document
+				.getElementById('googft-legend-open'));
+		map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document
+				.getElementById('googft-legend'));
+
+		layer = new google.maps.FusionTablesLayer({
+			map : map,
+			heatmap : {
+				enabled : false
+			},
+			query : {
+				select : "col12\x3e\x3e1",
+				from : "1bTAfjXCM4hmHyiLABQVqAOYostc-HDAO7lTAqbhL",
+				where : ""
+			},
+			options : {
+				styleId : 2,
+				templateId : 2
+			}
+		});
+
+		if (isMobile) {
+			var legend = document.getElementById('googft-legend');
+			var legendOpenButton = document
+					.getElementById('googft-legend-open');
+			var legendCloseButton = document
+					.getElementById('googft-legend-close');
+			legend.style.display = 'none';
+			legendOpenButton.style.display = 'block';
+			legendCloseButton.style.display = 'block';
+			legendOpenButton.onclick = function() {
+				legend.style.display = 'block';
+				legendOpenButton.style.display = 'none';
+			}
+			legendCloseButton.onclick = function() {
+				legend.style.display = 'none';
+				legendOpenButton.style.display = 'block';
+			}
+		}
+	}
+
+	function updateMap(layer1, tableId, locationColumn) {
+		var method = document.getElementById('method').value;
+		var description = document.getElementById('mapDescription');
+		if (method == "hc_k=2") {
+
+			layer1.setOptions({
+				query : {
+					select : locationColumn,
+					from : "1Rxbv2C2eRJCh21SVxHdt0xsAwnCHL9XF8JoZ3enc",
+					where : ""
+				}
+			});
+			description.innerHTML = "The category map represents the clusters of the frequency of crimes in relation to Scout Car Area and Crime Category. This map illustrates that when the SCA’s are grouped/clustered on the basis of Crime Category there is a significant change in the SCA cluster frequencies. It can be seen that there are now fifteen (15) SCA’s in the cluster associated with the highest crime rates with twenty-three (23) SCA’s associated with low crime rates.";
+		}
+
+		if (method == "hc_k=3") {
+
+			layer1.setOptions({
+				query : {
+					select : locationColumn,
+					from : "1_bt8QL3jfHc2Gs15rUIiBfOddjaEQ98sifDR_uUz",
+					where : ""
+				}
+			});
+			description.innerHTML = "The hour map represents the clusters of the frequency of crimes in relation to Scout Car Area and time period of crime, which have been placed into two (2) hour fragments. The hour map also illustrates seven (7) SCA’s which are associated with the cluster, which has the highest reported crime rates with twenty (20) SCA’s associated with the cluster which has the lowest reported crime rates.";
+		}
+
+		if (method == "hc_k=4") {
+
+			layer1.setOptions({
+				query : {
+					select : locationColumn,
+					from : "1bTAfjXCM4hmHyiLABQVqAOYostc-HDAO7lTAqbhL",
+					where : ""
+				}
+			});
+			description.innerHTML = "The month map represents the clusters of the frequency of crimes in relation to Scout Car Area and month. This map shows that there are seven (7) SCA’s with a high amount of crimes reported, whilst there are many (seventeen -17) SCA’s where crime rates are much lower.";
+		}
+
+		if (method == "hc_k=1") {
+
+			layer1.setOptions({
+				query : {
+					select : locationColumn,
+					from : "1ATSjS9813AwsuFtZ39V3PCfcKJTqREWcu3DQLkWD",
+					where : ""
+				}
+			});
+			description.innerHTML = "The major crimes map represents the clusters of the frequency of crimes in relation to Scout Car Area and the major crimes, including assault, burglary, homicide, kidnapping and weapons offences. This map more accurately reflects a degree of safety associated with each SCA as only the severe crimes are included in the frequencies. This map illustrates that there are fourteen (14) SCA’s which are associated with the highest average frequency of major crimes whilst still having thirty-two (32) SCA’s associated with the cluster with the lowest average reported crime frequencies.";
+		}
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body
+	style="text-align: center; width: 100%; left: 0; right: 0; top: 0; margin: 0;">
+	<div
+		style="height: 80px; background: #1a493e url('http://www.isp.msu.edu/isp_common/images/bg_header.gif') top repeat-x; position: relative; border-bottom: 7px solid #548654;">
+
+		<img style="margin-top: 20px;"
+			src="https://msu.edu/_files/images/rwd2014/masthead-helmet-white.svg">
+	</div>
+	<div
+		style="position: relative; height: 8px; width: 100%; background: transparent url('http://www.isp.msu.edu/isp_common/images/shadow.png') repeat-x; min-width: 960px; width: 960px; width: auto !important; z-index: 20;"></div>
+	<h1 class="header">Cluster Maps</h1>
+	<div class="doubleLine" style="margin: 0 50px;"></div>
+	<p style="margin: 5px 50px;">Presented below is a map that
+		illustrates the City of Detroit's crime activity from January 2015
+		until July 2016. Each of the Scout Car Area's (SCA) that are patrolled
+		by the Detroit Police have been clustered/grouped into 5 different
+		clusters. These clusters were calculated and determined using the
+		KMeans Clustering algorithm. This process has been completed 3 times
+		to reflect similar SCA's in the Detroit area based off months, crime
+		category and two hour time periods.</p>
+	<div style="margin: 0 50px;"></div>
+
+	<label>Cluster Basis <select id="method">
+			<option value="hc_k=4">Month</option>
+			<option value="hc_k=2">Category</option>
+			<option value="hc_k=3">Hour</option>
+			<option value="hc_k=1">Major Crimes</option>
+	</select>
+	</label>
+	<div id="googft-mapCanvas"
+		style="margin-left: auto; margin-right: auto;"></div>
+
+	<p id="mapDescription" style="margin: 5px 100px;"></p>
+
+	<div class="doubleLine" style="margin: 0 50px;"></div>
+	<h1 class="header">Frequency Distributions</h1>
+	<div class="doubleLine" style="margin: 0 50px;"></div>
+	<iframe width="1200" height="300" scrolling="no" frameborder="no"
+		src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col2%2C+col1+from+1jhSrKyEXklRnWRct2AH5CyS2URWjzNuLphF5dsez+order+by+col2+asc+limit+12&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_vAxes=%5B%7B%22title%22%3Anull%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%5D&amp;gco_useFirstColumnAsDomain=true&amp;gco_legacyScatterChartLabels=true&amp;gco_isStacked=false&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22viewWindow%22%3Anull%2C+%22viewWindowMode%22%3Anull%7D&amp;gco_legend=right&amp;gco_series=%7B%220%22%3A%7B%22color%22%3A%22none%22%7D%2C+%221%22%3A%7B%22color%22%3A%22%233366cc%22%7D%7D&amp;gco_title=Frequency+of+Crimes+per+Month&amp;width=1200&amp;height=300"></iframe>
+	<p style="margin: 5px 100px;">The increase in crimes in March,
+		April, May and June can be attributed to the increased tourism during
+		the Spring and Summer months and hence more people and opportunities
+		for crimes to occur. We chose to generate this chart in order to find
+		out when the safest travel months are for tourists and travellers.</p>
+	<iframe width="1200" height="300" scrolling="no" frameborder="no"
+		src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1+from+1EGAufo-HWshwxu7TpdszlXptOyWZ9DT0uI4B-ZGc+order+by+col0+asc+limit+100&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_vAxes=%5B%7B%22title%22%3Anull%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%5D&amp;gco_useFirstColumnAsDomain=true&amp;gco_legacyScatterChartLabels=true&amp;gco_isStacked=false&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22viewWindow%22%3Anull%2C+%22viewWindowMode%22%3Anull%7D&amp;gco_legend=right&amp;gco_title=Frequency+of+Crimes&amp;width=1200&amp;height=300"></iframe>
+	<p style="margin: 5px 100px;">Aside from the 'Miscellaneous'
+		category the 'Assault' category has the highest frequency. Due to
+		'Miscellaneous' being such a large portion of reported crimes within
+		the DPD database, we believe that this could lead to the City of
+		Detroit being a much safer area than initially expected. However, this
+		can not be confirmed without further extensive investigation. We chose
+		to generate this chart to explore the prevalence of each category of
+		crime, particularly the more severe crimes like homicide and assault.</p>
+	<iframe width="1200" height="300" scrolling="no" frameborder="no"
+		src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&amp;q=select+col0%2C+col1+from+1kPbh7QukSyIsEyD8sa2rCM1DNLn7Z9sbyJ37zHAn+order+by+col1+asc+limit+100&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_vAxes=%5B%7B%22title%22%3Anull%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%5D&amp;gco_useFirstColumnAsDomain=true&amp;gco_legacyScatterChartLabels=true&amp;gco_isStacked=false&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22gridlines%22%3A%7B%22count%22%3A%2212%22%7D%7D&amp;gco_legend=right&amp;gco_title=Frequency+of+Crimes+per+2+Hour+Periods&amp;width=1200&amp;height=300"></iframe>
+	<p style="margin: 5px 100px;">As exhibited in the figure above
+		there is a drop in crime rate between 0400 and 0700, while there is a
+		spike at noon to 1300. We chose to generate this chart in order to
+		discover the safest times to do activities and explore the area of
+		Detroit.</p>
+
+	<div id="footer">
+		<div id="footer-content">
+			<div id="footer-left">
+				<a href="http://msu.edu/"> <img
+					src="http://www.isp.msu.edu/isp_common/images/logo_main.gif"
+					alt="Michigan State University" title="Michigan State University" />
+				</a>
+			</div>
+			<div id="footer-mid">
+				<div id="footer-center">
+					<div id="footer-info">
+						<p>
+							&copy; 2016 Michigan State University, East Lansing, MI 48824<br />MSU
+							is an affirmative-action, equal-opportunity employer.
+						</p>
+					</div>
+					<div id="footer-right">
+
+						<div id="footer-address">
+							109 International Center<br />East Lansing, MI 48824<br /> Ph:
+							517.353.8920<br /> Fax: 517.432.2082<br /> E-mail: <a
+								href="mailto:american&#64;msu.edu">american&#64;msu.edu</a><br />
+						</div>
+</body>
+
+</html>
